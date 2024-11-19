@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30adf622882b70f44b857bb0b37b9564, type: 3}
+  m_Name: PrologueScene1
+  m_EditorClassIdentifier: 
+  charName:
+  - Mark
+  dialogue:
+  - ... You know, At first, I liked this job. It felt fulfilling, ferrying humans
+    to the afterlife. After all, they are the reason why we exist.
+  - "But after a couple of millenia, you start to see the\u2026 \u2018unusual\u2019
+    sights within human society. "
+  - Some have the ugliest hearts, while pretending to be pure, and some have the
+    purest of hearts, while pretending to be bad.
+  responses:
+  - responseText: ...
+    dialogueObject: {fileID: 11400000, guid: ee5f5b12744c8534ca4505b8cfa841d4, type: 2}

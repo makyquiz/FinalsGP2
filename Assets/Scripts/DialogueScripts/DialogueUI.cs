@@ -8,6 +8,7 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private GameObject dialogueBox;
 
     public bool isOpen { get; private set; }
+    public bool isCutscene;
 
     private ResponseHandler responseHandler;
     private TypewriterEffect typewriterEffect;
