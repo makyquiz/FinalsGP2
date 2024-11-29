@@ -45,7 +45,7 @@ public class CutscenePrologue2 : MonoBehaviour
 
     public void BadEnd()
     {
-        Invoke("BadEndChoice", 2f);
+        Invoke("BadEndChoiceTransition", 2f);
     }
 
     public void OntoPostPrologueTransition()

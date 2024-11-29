@@ -6028,7 +6028,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.size
-      value: 51
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[0]
@@ -6196,11 +6196,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[41]
-      value: Arthur
+      value: Rea
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[42]
-      value: Rea
+      value: Arthur
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[43]
@@ -6208,7 +6208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[44]
-      value: Arthur
+      value: Rea
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[45]
@@ -6224,19 +6224,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[48]
-      value: Rea
+      value: Arthur
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[49]
-      value: Arthur
+      value: Rea
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.names.Array.data[50]
       value: Arthur
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
+      propertyPath: dialogue.names.Array.data[51]
+      value: Arthur
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 51
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -6383,80 +6387,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[33]
-      value: But one day, while eating dinner with his whole family including his
-        in-laws, Arthur suddenly collapses.
+      value: But one day, Arthur suddenly collapses on a dinner with his in-laws.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[34]
-      value: Arthur was bedridden for weeks. His wife Amelia couldn't take it anymore.
+      value: HIs in-laws, really insisted on having this family dinner together.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[35]
+      value: Arthur was bedridden for weeks. His wife Amelia couldn't take it anymore.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[36]
       value: She goes to the neighboring cities, going around to ask for the best
         doctors.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[36]
+      propertyPath: dialogue.sentences.Array.data[37]
       value: His son David, locks himself in his room to study about possible cures
         and what his condition is.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[37]
+      propertyPath: dialogue.sentences.Array.data[38]
       value: After days, Amelia comes back with the best doctors.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[38]
+      propertyPath: dialogue.sentences.Array.data[39]
       value: Unfortunately, they have concluded that Arthur doesn't have much time
         left.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[39]
+      propertyPath: dialogue.sentences.Array.data[40]
       value: Amelia doesn't accept it, going even further to ask for help.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[40]
+      propertyPath: dialogue.sentences.Array.data[41]
       value: Now, uncertain how much he has left, Arthur awaits for his end.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[41]
+      propertyPath: dialogue.sentences.Array.data[42]
       value: ... You really did know everything.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[42]
-      value: ...
-      objectReference: {fileID: 0}
-    - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[43]
-      value: Any last words?
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[44]
-      value: Hahaha... I never thought I would hear that from the Grim Reaper himself.
+      value: Any last words?
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[45]
-      value: ...
+      value: Hahaha... I never thought I would hear that from the Grim Reaper himself.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[46]
-      value: ... I only have one thing to say,
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[47]
+      value: ... I only have one thing to say,
+      objectReference: {fileID: 0}
+    - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
+      propertyPath: dialogue.sentences.Array.data[48]
       value: Please, find out who did this to my body. That's my last request before
         I die.
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[48]
+      propertyPath: dialogue.sentences.Array.data[49]
       value: '... '
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
-      propertyPath: dialogue.sentences.Array.data[49]
-      value: I have a lot of enemies you see, and I'm afraid whoever did this...
-      objectReference: {fileID: 0}
-    - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[50]
-      value: I might have an idea, so please, O' great Grim Reaper.
+      value: I have a lot of enemies you see, and I'm afraid whoever did this...
       objectReference: {fileID: 0}
     - target: {fileID: 3286787774719530528, guid: bf1b1698d24bf584d94d4d4addb67d3f, type: 3}
       propertyPath: dialogue.sentences.Array.data[51]

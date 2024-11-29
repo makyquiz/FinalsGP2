@@ -3,23 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PrologueBadEnd : MonoBehaviour
+public class Chapter2PreludeScript : MonoBehaviour
 {
-    public GameObject cutToBlack;
+    public GameObject startConvo;
     public GameObject badEndText;
     public GameObject tryAgainText;
 
     public GameObject menuButton;
 
-    void Start()
+    public void DialogueCheck()
     {
-        Invoke("CutToBlack", 4.2f);
-        Invoke("BadEndShow", 8.4f);
-    }
+        FindObjectOfType<DialogueManager2>().EndDialogue();
 
-    void CutToBlack()
-    {
-        cutToBlack.SetActive(true);
+        Invoke("BadEndShow", 4f);
+
+        startConvo.SetActive(false);
     }
 
     void BadEndShow()
