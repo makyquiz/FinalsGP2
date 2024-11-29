@@ -1,17 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CH1BadEndScript : MonoBehaviour
 {
-    public GameObject finalConvo;
     public GameObject transitionFade;
     public GameObject transitionIn;
     public GameObject transitionCut;
 
     public void Start()
     {
-        finalConvo.SetActive(false);
         transitionCut.SetActive(false);
         Invoke("DeactivatePanel", 1.5f);
     }
@@ -22,12 +21,12 @@ public class CH1BadEndScript : MonoBehaviour
 
         transitionFade.SetActive(true);
 
-        Invoke("SecondConvo", 5f);
+        Invoke("BadEndCont", 5f);
     }
 
-    public void SecondConvo()
+    public void BadEndCont()
     {
-        finalConvo.SetActive(true);
+        SceneManager.LoadScene("Ch1BadEndCont");
     }
 
     public void DeactivatePanel()

@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Chapter1/Chapter1-BadChoice.unity
     guid: ca0f2974065903748a0ce000ec83ffd7
   - enabled: 1
+    path: Assets/Scenes/Chapter1/Ch1BadEndCont.unity
+    guid: 00e3b0a98f88bdb429d0f422bdcb667e
+  - enabled: 1
     path: Assets/Scenes/Chapter1/Chapter1-ContinueChoice.unity
     guid: dd297d005c408e94fbb0e54822df0772
   m_configObjects: {}
