@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using TMPro;
 
-public class CH1Script : MonoBehaviour
+public class CH1ContinueScript : MonoBehaviour
 {
     public GameObject transition;
     public GameObject transitionIn;
+    public GameObject chapterName;
+    public GameObject finished;
 
-    public void Start()
+    private void Start()
     {
-        Invoke("DeactivatePanel", 1f);
+        Invoke("DeactivatePanel", 1.5f);
     }
 
     public void DialogueCheck()
@@ -19,12 +21,13 @@ public class CH1Script : MonoBehaviour
 
         transition.SetActive(true);
 
-        Invoke("NextPart", 2f);
+        Invoke("ChapterFinished", 5f);
     }
 
-    public void NextPart()
+    public void ChapterFinished()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        chapterName.SetActive(true);
+        finished.SetActive(true);
     }
 
     public void DeactivatePanel()

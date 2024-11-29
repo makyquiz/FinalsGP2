@@ -30,6 +30,7 @@ public class DialogueManager2 : MonoBehaviour
     public void StartDialogue(Dialogue2 dialogue)
     {
         startBox.SetActive(false);
+        continueBox.SetActive(true);
         dialogueBox.SetActive(true);
         
         animator.SetBool("isOpen", true);
@@ -97,6 +98,8 @@ public class DialogueManager2 : MonoBehaviour
     {
         Debug.Log("End Convo");
 
+        endBox.SetActive(false);
+        continueBox.SetActive(false);
         animator.SetBool("isOpen", false);
     }
 }

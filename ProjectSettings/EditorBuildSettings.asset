@@ -6,15 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Prologue.unity
+    path: Assets/Scenes/Prologue/Prologue.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Prologue2Choice.unity
+    path: Assets/Scenes/Prologue/PrologueChoice.unity
     guid: 4487409be78c52f4e8a2c4984406dae9
   - enabled: 1
-    path: Assets/Scenes/Chapter1.unity
+    path: Assets/Scenes/Prologue/PrologueBadEnd.unity
+    guid: fe958bbf2f7df6447bc6213dff81b680
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Chapter1.unity
     guid: 3ef1f46e93e76df448de7a5478579388
   - enabled: 1
-    path: Assets/Scenes/Chapter1Choice.unity
-    guid: 1e827acc61c1c7f44a3460cb628bc6d6
+    path: Assets/Scenes/Chapter1/Chapter1Choice.unity
+    guid: 0b2c76d9ad105ec48ab1b6f15a9b2629
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Chapter1-BadChoice.unity
+    guid: ca0f2974065903748a0ce000ec83ffd7
+  - enabled: 1
+    path: Assets/Scenes/Chapter1/Chapter1-ContinueChoice.unity
+    guid: dd297d005c408e94fbb0e54822df0772
   m_configObjects: {}
