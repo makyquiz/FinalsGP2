@@ -37,23 +37,23 @@ public class CutscenePrologue2 : MonoBehaviour
         transitionOut.SetActive(false);
     }
 
-    public void OntoChapter1Transition()
+    public void OntoPostPrologue()
     {
-        Invoke("OntoChapter1Choice", 2f);
+        Invoke("OntoPostPrologueTransition", 2f);
         transitionIn.SetActive(true);
     }
 
-    public void BadEndTransition()
+    public void BadEnd()
     {
         Invoke("BadEndChoice", 2f);
     }
 
-    public void OntoChapter1Choice()
+    public void OntoPostPrologueTransition()
     {
-        SceneManager.LoadScene("Chapter1");
+        SceneManager.LoadScene("PostPrologue");
     }
 
-    public void BadEndChoice()
+    public void BadEndChoiceTransition()
     {
         SceneManager.LoadScene("PrologueBadEnd");
         

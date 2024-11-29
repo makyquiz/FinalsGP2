@@ -1034,11 +1034,83 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
       propertyPath: dialogue.names.Array.size
-      value: 29
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[25]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[26]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[27]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[28]
+      value: Rea
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[29]
+      value: Rea
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[30]
+      value: Rea
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.names.Array.data[31]
+      value: Rea
       objectReference: {fileID: 0}
     - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
       propertyPath: dialogue.sentences.Array.size
-      value: 29
+      value: 32
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[21]
+      value: ... Why? It's almost as if no one wated to eat...
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[22]
+      value: Did someone tell Arthur to eat first?
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[23]
+      value: Come to think of it...
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[24]
+      value: Arthur did say that his in-laws insisted on eating with them that day...
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[25]
+      value: ......
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[26]
+      value: ......
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[27]
+      value: ......
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[28]
+      value: Wait...
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[29]
+      value: There's no way... right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[30]
+      value: But that would mean that...
+      objectReference: {fileID: 0}
+    - target: {fileID: 108558978966812718, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
+      propertyPath: dialogue.sentences.Array.data[31]
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2903426710861365635, guid: b4270276b3498c34ea16ea39be1c5eff, type: 3}
       propertyPath: m_Pivot.x

@@ -8,12 +8,14 @@ public class CutscenePrologue1 : MonoBehaviour
     public CinemachineVirtualCamera Camera2;
 
     public GameObject transition;
+    public GameObject transitionIn;
 
     // Start is called before the first frame update
     void Start()
     {
         Camera1.Priority = 1;
-        Camera2.Priority = 0;
+        Camera2.Priority = 0; 
+        Invoke("DeactivatePanel", 1f);
     }
 
     public void DialogueCheck()
@@ -35,5 +37,9 @@ public class CutscenePrologue1 : MonoBehaviour
     public void NextPrologue()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void DeactivatePanel()
+    {
+        transitionIn.SetActive(false);
     }
 }

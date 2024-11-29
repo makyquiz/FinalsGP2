@@ -14365,7 +14365,7 @@ PrefabInstance:
       objectReference: {fileID: 1792962177349634132}
     - target: {fileID: 390069935637071669, guid: 8ffbc7cf4711b4b4088f1aae641c6206, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OntoChapter1Transition
+      value: OntoPostPrologue
       objectReference: {fileID: 0}
     - target: {fileID: 390069935637071669, guid: 8ffbc7cf4711b4b4088f1aae641c6206, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -14477,7 +14477,7 @@ PrefabInstance:
       objectReference: {fileID: 1792962177349634132}
     - target: {fileID: 8498772236092775155, guid: 8ffbc7cf4711b4b4088f1aae641c6206, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BadEndTransition
+      value: BadEnd
       objectReference: {fileID: 0}
     - target: {fileID: 8498772236092775155, guid: 8ffbc7cf4711b4b4088f1aae641c6206, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

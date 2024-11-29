@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Prologue/PrologueChoice.unity
     guid: 4487409be78c52f4e8a2c4984406dae9
   - enabled: 1
+    path: Assets/Scenes/PostPrologue/PostPrologue.unity
+    guid: 8ba34e908992c9b43926427fdd6186b9
+  - enabled: 1
     path: Assets/Scenes/Prologue/PrologueBadEnd.unity
     guid: fe958bbf2f7df6447bc6213dff81b680
   - enabled: 1
